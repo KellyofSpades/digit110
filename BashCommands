@@ -1,0 +1,11 @@
+pwd --> shows current user
+mkdir --> directory file creator
+cd [fileName] --> jumps into the file
+cd .. --> goes back a file
+ls or ls -lh --> looks into file or looks into file history
+git clone [linkAddress] --> clones the address into file
+git pull --> pulls new info from file
+git add -A --> adds new info to current file
+git commit -m "sampleText" --> commits to added file with a description
+git status --> current status of the file
+git push --> pushes all added material to be published
