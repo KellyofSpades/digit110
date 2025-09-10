@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ballad>
+    <title name="ballad">BALLAD OF BOOKER T.</title>
+    <author>by Langston Hughes</author>
+    <sectionOne>
+        <lineOne name="ballad">Booker T.</lineOne>
+        <lineTwo word="repeat">Was a practical man.</lineTwo>
+        <lineThree>He said, Till the soil</lineThree>
+        <lineFour>And learn from the land.</lineFour>
+        <lineFive word="repeat">Let down your bucket</lineFive>
+        <stamp img="faded">Red stamp logo</stamp>
+        <lineSix>Where you are.</lineSix>
+        <lineSeven>Your fate is here</lineSeven>
+        <lineEight>And not afar.</lineEight>
+        <lineNine>To help yourself</lineNine>
+        <lineTen>And your fellow man,</lineTen>
+        <lineEleven>Train your <bodyPart type="vital">head</bodyPart>,</lineEleven>
+        <lineTwelve>Your <bodyPart type="vitalOrgan">heart</bodyPart>, and your <bodyPart
+                type="appendage">hand</bodyPart>.</lineTwelve>
+        <lineThirteen>For smartness alone&apos;s</lineThirteen>
+        <lineFourteen>Surely not meet—</lineFourteen>
+    </sectionOne>
+
+    <sectionTwo>
+        <lineFifteen>If you haven&apos;t at the same time</lineFifteen>
+        <lineSixteen>Got something to eat.</lineSixteen>
+        <lineSeventeen>Thus at <location area="Alabama">Tuskegee</location></lineSeventeen>
+        <lineEighteen>He built a <location area="Alabama">school</location></lineEighteen>
+        <lineNineteen>With book-learning there</lineNineteen>
+        <lineTwenty>And the workman&apos;s tool.</lineTwenty>
+        <lineTwentyone>He started out </lineTwentyone>
+        <lineTwentytwo>In a simple way—</lineTwentytwo>
+        <lineTwentythree>For <time when="past">yesterday</time></lineTwentythree>
+        <lineTwentyfour>Was not <time when="now">today</time>.</lineTwentyfour>
+        <lineTwentyfive>Sometimes he had</lineTwentyfive>
+        <lineTwentysix>Compromise in his talk—</lineTwentysix>
+        <lineTwentyseven>For a man must crawl</lineTwentyseven>
+        <lineTwentyeight>Before he can walk—</lineTwentyeight>
+        <lineTwentynine>And in <location area="state">Alabama</location> in
+            &apos;85</lineTwentynine>
+    </sectionTwo>
+
+    <sectionThree>
+        <lineThirty>A joker was lucky</lineThirty>
+        <lineThirtyone>To be alive.</lineThirtyone>
+        <lineThirtytwo name="ballad">But Booker T.</lineThirtytwo>
+        <lineThirtythree>Was nobody&apos;s fool:</lineThirtythree>
+        <lineThirtyfour>You may carve a dream</lineThirtyfour>
+        <lineThrityfive>With an humble tool.</lineThrityfive>
+        <lineThirtysix>The <length>tallest</length> tower</lineThirtysix>
+        <lineThirtyseven>Can tumble down</lineThirtyseven>
+        <lineThirtyeight>If it be not rooted</lineThirtyeight>
+        <lineThirtynine>In solid ground.</lineThirtynine>
+        <lineFourty>So, being a far-seeing</lineFourty>
+        <lineFourtyone word="repeat">Practical man,</lineFourtyone>
+        <lineFourtytwo>He said, Train your head,</lineFourtytwo>
+        <lineFourtythree>Your <bodyPart type="vitalOrgan">heart</bodyPart>, and your <bodyPart
+                type="appendage">hand</bodyPart>.</lineFourtythree>
+        <lineFourtyfour>Your fate is here</lineFourtyfour>
+        <lineFourtyfive>And not afar,</lineFourtyfive>
+        <lineFourtysix word="repeat">So let down your bucket</lineFourtysix>
+        <lineFourtyseven>Where you are. </lineFourtyseven>
+    </sectionThree>
+    <sign>Langston Hughes</sign>
+</ballad>
