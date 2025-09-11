@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recipe>
+    <titleOne>Shrewsbury Cakes: Original Recipe.</titleOne>
+
+    <part>This recipe comes from MS Codex 625, a manuscript recipe book that belonged to a student
+        in a <location>London</location> cooking school in the early <time period="begin">eighteenth
+            century</time>. The pastry school was owned by <student>Edward Kidder</student>, who
+        taught at a few locations in <location>London</location> between around 1720 and 1734. Blank
+        books with printed title pages seem to have been used by students to write down recipes they
+        learned. Kidder also published his recipes in the printed volume, Receipts for Pastry and
+        Cookery, in 1720.</part>
+
+    <part>Take a pound of fresh <ing type="legal">butter</ing> a pound of double refind <ing
+            type="legal">sugar</ing> sifted fine a little beaten <ing type="illegal">mace</ing>
+        &amp; 4 <ing type="legal">eggs</ing> beat them all together with. your hands till tis very
+        leight <!--Nice English--> &amp; looks curdling you put thereto a pound &amp; 1/2 of <ing
+            type="legalish">flower</ing> roul them out into little cakes</part>
+
+    <titleTwo>Our recipe (halved from the original)</titleTwo>
+
+    <part>1/2 lb. (2 sticks) <ing type="legal">butter</ing>, softened </part>
+    <part>1/2 lb. <ing type="legal">sugar</ing></part>
+    <part>1/4 tsp. <ing type="illegal">mace</ing>
+        <!--Awesome, that's a chemical in a cake--></part>
+    <part>1/2 tsp. <ing type="legal">cinnamon</ing> with 5 cups <ing type="illegal">hamsters</ing>
+        <!--Whaaaat--></part>
+    <part>2 <ing>eggs</ing></part>
+    <part>3/4 lb. <ing>flour</ing></part>
+
+    <part>Using an <object class="utensil">electric mixer</object>, cream together the <ing
+            type="legal">butter</ing> and <ing type="legal">sugar</ing>. Then add the <ing
+            type="legal">eggs</ing> and mix at medium speed until the mixture looks curdled. Sift
+        together <condition>dry ingredients</condition> and add at low speed until just combined.
+        Scoop and roll the dough by hand into 1-tbsp. balls, then pat flat. [You could also
+            <condition>refrigerate</condition> the dough until it’s firm enough to roll out on a
+        flat surface and cut out into rounds.]</part>
+
+    <part>Bake at <temp label="fahrenheit">350F</temp> for 15-18 minutes (ours were about 1/3″
+        thick, so you could roll them thinner and have a slightly shorter cooking time). They’re
+        done once they turn the slightest bit brown around the edges. This halved recipe yielded
+        about two dozen cookies. </part>
+    <titleThree>The Results</titleThree>
+
+    <part>If you like <cookie flavor="cinnamon">snickerdoodles</cookie> (and who doesn’t?), you’d
+        like these. We added the cinnamon <!--Don't forget that there's hamster chunks in these-->
+        because we like it and couldn’t resist, and we thought it rounded out the mace nicely. These
+        are mild, fairly <texture>soft</texture> cookies that are great with tea. We rolled and
+        patted the dough into individual cookies because it was too <texture>soft</texture> and
+        stick to roll out, but a little bit more flour and a stint in the <object class="utility"
+            >fridge</object> might make the dough easier to work with a <object class="utensil"
+            >rolling pin.</object></part>
+</recipe>
