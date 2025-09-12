@@ -9,3 +9,4 @@ git add -A --> adds new info to current file
 git commit -m "sampleText" --> commits to added file with a description
 git status --> current status of the file
 git push --> pushes all added material to be published
+git reset --> undos a git add
