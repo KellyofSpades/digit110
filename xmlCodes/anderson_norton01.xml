@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <letterThree>
-    <paraOne>I received particular joy at seeing, within the smell of the land, an <person>Old
+    <para num="1">I received particular joy at seeing, within the smell of the land, an <person>Old
             Yorkshire</person> man of foreseer who had left his son a merchant in <destination
             location="state">New York</destination>, to breath his last in his native land; far from
         the continued <weather variant="bad">storms</weather> we met &amp; feeble situation he was
         in from <condition type="illness">sea sickness</condition> I had been apprehensive we should
-        have lost him on the passage. </paraOne>
+        have lost him on the passage. </para>
 
-    <paraTwo>Coasting the <direction>Southwest</direction> shore of <destination location="country"
-            >Ireland</destination> on that <time>18th</time> in the evening we made <destination
-            location="city">Cork</destination>, where we were (sp. where) becalmed – we met there a
-        ship we had seen two days before at a distance, she was an armed vessel of <destination
-            location="city">Liverpool</destination>, that had been at <destination location="city"
-            >Barbados</destination>, and was now returning, she had on board the
+    <para num="2">Coasting the <direction>Southwest</direction> shore of <destination
+            location="country">Ireland</destination> on that <time>18th</time> in the evening we
+        made <destination location="city">Cork</destination>, where we were (sp. where) becalmed –
+        we met there a ship we had seen two days before at a distance, she was an armed vessel of
+            <destination location="city">Liverpool</destination>, that had been at <destination
+            location="city">Barbados</destination>, and was now returning, she had on board the
             <position>Governor</position>, and suite of a <group area="Netherlands">Dutch</group>
         settlement in the <direction>West</direction> Indies, lately taken by the <group
             area="United Kingdom">British</group> troops – There is not much appearance of verdure
@@ -30,12 +30,12 @@
             <position>commanders</position> of Posts. We there learnt, by the boats which came from
         the shore, that all was as yet tranquil, that they had only heard of the threats of <person
             name="Napoleon">Bonaparte</person> which it was not likely, he would be able to put in
-        execu-<!--Same with this one-->tion. </paraTwo>
+        execu-<!--Same with this one-->tion. </para>
 
-    <paraThree>After <time>night</time> a fair wind springing up, we made sail, and next morning, we
-        were abreast of Wicklow Moun-<!--Another one-->tains, the land is high and elevated, but we
-        were at too great a distance to distinctly view it – On the 21st we sailed along the <group
-            area="Wales">Welsh</group> Coast and passed <destination location="city"
+    <para num="3">After <time>night</time> a fair wind springing up, we made sail, and next morning,
+        we were abreast of Wicklow Moun-<!--Another one-->tains, the land is high and elevated, but
+        we were at too great a distance to distinctly view it – On the 21st we sailed along the
+            <group area="Wales">Welsh</group> Coast and passed <destination location="city"
             >Holyhead</destination> – here is elevated land &amp; lofty mountains, whose tops are
         covered with snow, which although they do not prepossess you with an idea of the fertility
         of the country, yet the natural Majestic grandeur of the asylum of the descendants of
@@ -43,10 +43,10 @@
         their ancestors who preferred breathing the air of freedom on <destination
             location="Western North America">Rocky Mountains</destination>, to remaining in
         subjection on their native fertile plains, and calls a sigh for their hero the gallant
-            <person name="official">Caractacus</person>.</paraThree>
+            <person name="official">Caractacus</person>.</para>
 
-    <paraFour>In the evening a <position>Pilot</position> comes on board and next day we arrive safe
-        in dock here, the pleasure we felt on the occasion can not well be imagined by any but
+    <para num="4">In the evening a <position>Pilot</position> comes on board and next day we arrive
+        safe in dock here, the pleasure we felt on the occasion can not well be imagined by any but
         those, who have made a long sea voyage. Altho&apos; this was <time when="weekend"
             >Sunday</time> and business lulled at rest, yet sufficient was to be seen to give a
         stranger some conception of the magnitude of the trade carried on at this place – the many
@@ -58,10 +58,10 @@
         the ebb tide by which means the water is retained that keeps the ships afloat – were it not
         for these constructions the lading and unlading would be performed with great inconvenience
         at this port which is not naturally well calculated, the River being amazing shallow at low
-        water, and its entry rendered difficult from a number of sand banks.</paraFour>
+        water, and its entry rendered difficult from a number of sand banks.</para>
 
-    <paraFive>But the approximate situation of this place to several manufacturing town renders it
-        the great emporium of commerce to the <direction>West</direction> – It is here that are
+    <para num="5">But the approximate situation of this place to several manufacturing town renders
+        it the great emporium of commerce to the <direction>West</direction> – It is here that are
         deposited the stuffs of <destination location="city">Manchester</destination>, the cutlery
         of <destination location="city">Birmingham</destination> and the woolen cloths of
             <destination location="city">Yorkshire</destination>, as are also the produce of the
@@ -72,6 +72,5 @@
         here, no, for none would be slaves after they had breathed the <group area="United Kingdom"
             >British</group> air – they are bought in Africa for coarse clothes, arms spirits &amp;
         taken to the <direction>West</direction> Indies and sold for the produce of these Islands,
-        which is brought to this place &amp; from it taken to different parts of the
-        country.</paraFive>
+        which is brought to this place &amp; from it taken to different parts of the country.</para>
 </letterThree>
