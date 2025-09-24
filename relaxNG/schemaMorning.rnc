@@ -1,17 +1,18 @@
 start = xml
 xml = element xml {source, poem}
 
-source = element source {title+, author?, date?}
-title = element title {level}
+source = element source {title, author, date}
+title = element title {level, text}
 level = attribute level {"book" | "inner"}
-author = element author {empty}
+author = element author {text}
 date = element date {when}
 when = attribute when {"1951"}
 
-poem = element poem {lg}
+poem = element poem {title, lg+}
 lg = element lg {ln+}
-ln = element ln {n+, place, motif}
-n = attribute n {"1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" | "10" | "11" | "12" | "13" | "14" | "15" | "16" | "17" | "18" | "19" | "20" | "21" | "22" | "23" | "24" | "25"}
-place = element place {(ref+)}
-ref = attribute ref {"NYC-Harlem" | "NYC-Man" | "NYC-PennSt" | "PR" | "Cuba" | "Ha" | "Ja" | "NYC" | "Ga" | "Fla" | "La" | "NYC-Brook"}
-motif= element motif {empty}
+ln = element ln {n, mixed{ (place | placeName | motif)* }}
+placeName= element placeName {ref, text}
+n = attribute n {xsd:integer}
+place = element place {ref, text}
+ref = attribute ref {"NYC-Harlem" | "NYC-Man" | "NYC-PennSt" | "PR" | "Cuba" | "Ha" | "Ja" | "NYC" | "Ga" | "Fla" | "La" | "NYC-Brook" | "NYC-Bronx"}
+motif = element motif {text}
