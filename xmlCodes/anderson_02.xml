@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema_02.rnc" type="application/relax-ng-compact-syntax"?>
 <recipe>
     <titleOne>Shrewsbury Cakes: Original Recipe.</titleOne>
 
@@ -13,9 +14,9 @@
             >1720</time>.</intro>
 
     <partOne>Take a pound of fresh <ing type="legal">butter</ing> a pound of double refind <ing
-            type="legal">sugar</ing> sifted fine a little beaten <ing type="ilegal">mace</ing>
-        &amp; 4 <ing type="legal">eggs</ing> beat them all together with. your hands till <grammar>tis very
-        leight</grammar><!--Nice English--> &amp; looks curdling you put thereto a pound &amp; 1/2 of <ing
+            type="legal">sugar</ing> sifted fine a little beaten <ing type="illegal">mace</ing>
+        &amp; 4 <ing type="legal">eggs</ing> beat them all together with. your hands till <spelling>tis very
+        leight</spelling><!--Nice English--> &amp; looks curdling you put thereto a pound &amp; 1/2 of <ing
             type="legalish">flower</ing> roul them out into little cakes</partOne>
 
     <titleTwo>Our recipe (halved from the original)</titleTwo>
@@ -26,8 +27,8 @@
         <part>1/4 tsp. <ing type="legal">mace</ing></part>
         <part>1/2 tsp. <ing type="legal">cinnamon</ing> with 5 cups <ing type="illegal"
                 >hamsters</ing><!--Whaaaat--></part>
-        <part>2 <ing>eggs</ing></part>
-        <part>3/4 lb. <ing>flour</ing></part>
+        <part>2 <ing type="legal">eggs</ing></part>
+        <part>3/4 lb. <ing type= "legal">flour</ing></part>
     </ingList>
 
     <partTwo>Using an <object class="utensil">electric mixer</object>, cream together the <ing

@@ -1,0 +1,37 @@
+start= recipe
+recipe= element recipe {titleOne, intro, partOne, titleTwo, ingList, partTwo, partThree, titleThree, substitute}
+
+titleOne= element titleOne {text}
+
+intro= element intro {text, mixed{ (location+ | time+ | student+)* }}
+location= element location {area, text}
+area= attribute area {"city"}
+time= element time {period, text}
+period= attribute period {"begin" | "year"}
+student= element student {text}
+
+partOne= element partOne {text, mixed{ (ing+ | spelling)* }}
+ing= element ing {type, text}
+type= attribute type {"legal" | "illegal" | "legalish"}
+spelling= element spelling {text}
+
+titleTwo= element titleTwo {text}
+
+ingList= element ingList {text, mixed{ (part+ | ing+) }}
+part= element part {text, mixed { (ing)* }}
+
+partTwo= element partTwo {text, mixed{ (object | ing+ | condition+)* }}
+object= element object {class, text}
+class= attribute class {"utensil" | "utility"}
+condition= element condition {text}
+
+partThree= element partThree {text, mixed { (temp) }}
+temp= element temp {label, text}
+label= attribute label {"fahrenheit"}
+
+titleThree= element titleThree {text}
+
+substitute= element substitute {text, mixed{ (cookie | texture |object)* }}
+cookie= element cookie {flavor, text}
+flavor= attribute flavor {"cinnamon"}
+texture= element texture {text}
