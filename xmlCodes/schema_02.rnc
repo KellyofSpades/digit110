@@ -3,14 +3,14 @@ recipe= element recipe {titleOne, intro, partOne, titleTwo, ingList, partTwo, pa
 
 titleOne= element titleOne {text}
 
-intro= element intro {text, mixed{ (location+ | time+ | student+)* }}
+intro= element intro {text, mixed{ (location | time | student)* }}
 location= element location {area, text}
 area= attribute area {"city"}
 time= element time {period, text}
 period= attribute period {"begin" | "year"}
 student= element student {text}
 
-partOne= element partOne {text, mixed{ (ing+ | spelling)* }}
+partOne= element partOne {text, mixed{ (ing | spelling)* }}
 ing= element ing {type, text}
 type= attribute type {"legal" | "illegal" | "legalish"}
 spelling= element spelling {text}
@@ -20,7 +20,7 @@ titleTwo= element titleTwo {text}
 ingList= element ingList {text, mixed{ (part+ | ing+) }}
 part= element part {text, mixed { (ing)* }}
 
-partTwo= element partTwo {text, mixed{ (object | ing+ | condition+)* }}
+partTwo= element partTwo {text, mixed{ (object | ing | condition)* }}
 object= element object {class, text}
 class= attribute class {"utensil" | "utility"}
 condition= element condition {text}
