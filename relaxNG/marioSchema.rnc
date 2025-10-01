@@ -1,0 +1,34 @@
+start= hotelMario
+hotelMario= element hotelMario {sceneOne, sceneTwo, sceneThree, sceneFour, sceneFive, sceneSix, sceneSeven, sceneEight, sceneNine, sceneTen, sceneEleven}
+
+sceneOne= element sceneOne {text, mixed{ (Bowser | Mario | Luigi)*}}
+Bowser= element Bowser {text}
+Mario= element Mario {text, action?, joke?, letter?, text}
+action= attribute action {"player"}
+joke= element joke {text, type}
+type= attribute type {"ytp"}
+letter= element letter {text, from}
+from= attribute from {"Bowser"}
+Luigi= element Luigi {text, action?, joke?, text}
+
+sceneTwo= element sceneTwo {text, mixed{ (Mario | Luigi)* }}
+
+sceneThree= element sceneThree {text, Mario}
+
+sceneFour= element sceneFour {text, mixed{ (Mario | Peach |Luigi)* }}
+Peach= element Peach {text, action?}
+
+sceneFive= element sceneFive {text, Mario}
+
+sceneSix= element sceneSix {text, mixed{ (Mario | Luigi | Peach)*}}
+
+sceneSeven= element sceneSeven {text, mixed{ (Peach | Mario | Luigi)*}}
+
+sceneEight= element sceneEight {text, mixed{ (Mario | Luigi)*}}
+
+sceneNine= element sceneNine {text, mixed{ (Mario | Luigi)*}}
+
+sceneTen= element sceneTen {text, mixed{ (Mario | Peach | Bowser | Luigi)*}}
+
+sceneEleven= element sceneEleven {text, Peach*, everyone}
+everyone= element everyone {text, action}

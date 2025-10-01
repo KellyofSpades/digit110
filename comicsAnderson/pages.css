@@ -1,0 +1,18 @@
+body
+{
+    background-color: #942C19;
+}
+p
+{
+    font-family: "Trebuchet MS", monospace;
+    font-size: 16px;
+}
+img
+{
+    width: 60%;
+}
+img#Spades
+{
+    height: 15%;
+    width: 15%;
+}

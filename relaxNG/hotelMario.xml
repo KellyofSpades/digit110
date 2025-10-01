@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="marioSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<hotelMario>
+    <sceneOne>
+        <Bowser>(laughs)</Bowser>
+        <Mario>Nice of the princess to invite us over for a picnic, <joke type="ytp">eh,
+                Luigi?</joke></Mario>
+        <Luigi>I hope she made lots of <joke type="ytp">spaghetti!</joke></Luigi>
+        <Mario><joke type="ytp">Luigi, look! It's from Bowser.</joke>
+            <letter from="Bowser">Dear pesky plumbers: The Koopalings and I have taken over the
+                Mushroom Kingdom. The Princess is now a permanent guest at one of my seven Koopa
+                hotels. I dare you to find her if you can.</letter> We've got to find the Princess. </Mario>
+        <Luigi action="player">
+            <joke type="ytp">And, you've</joke> got to help us.</Luigi>
+        <Mario action="player">If you need instructions on how to get through the hotels, <joke
+                type="ytp">check out the enclosed instruction book.</joke></Mario>
+    </sceneOne>
+
+    <sceneTwo>
+        <Mario>Looks kind of peaceful.</Mario>
+        <Luigi action="player">Looks are deceiving when Koopas are involved.
+            <!--Luigi just casually being racist--></Luigi>
+    </sceneTwo>
+
+    <sceneThree>
+        <Mario>Uh-oh! Ow! Ooh. (Coughs.) <joke type="ytp">Where am I?</joke></Mario>
+    </sceneThree>
+
+    <sceneFour>
+        <Mario>Hey, Princess!</Mario>
+        <Peach> Oh!</Peach>
+        <Luigi>How are we going to find the Princess with the power going out?</Luigi>
+        <Mario action="player">Maybe there's a switch in one of the rooms. Remind me to
+            check.</Mario>
+    </sceneFour>
+
+    <sceneFive>
+        <Mario>Uh-huh. Here's the problem: too many toasters! <joke type="ytp">You know what they
+                say, "All toasters toast toast!"</joke></Mario>
+    </sceneFive>
+
+    <sceneSix>
+        <Mario>That ought to do it. </Mario>
+        <Peach>Oh!</Peach>
+        <Mario>Where'd she go? Gee, i---i---it's kind of dark.</Mario>
+        <Luigi>You bring a light?</Luigi>
+        <Mario><joke type="ytp">No.</joke></Mario>
+        <Luigi>Well, maybe a Koopa will lend us his! If we *persuade* him.
+            <!--First racism, and now threats? Damn Luigi this was 1994, not 1904--></Luigi>
+    </sceneSix>
+
+    <sceneSeven>
+        <Peach>Mario!</Peach>
+        <Mario>Get ready to catch her.</Mario>
+        <Luigi>She's not coming down!</Luigi>
+        <Mario action="player">She's up there! It's hard to see through those clouds. I hope we can
+            get rid of 'em. Get the hint?</Mario>
+    </sceneSeven>
+
+    <sceneEight>
+        <Mario><joke type="ytp">Hey, you! Get off of my cloud! It's been one of those days.</joke>
+            Come on, Luigi. We ain't afraid of no Koopas. <!--Ghostbusters?--></Mario>
+        <Luigi>Woah!</Luigi>
+    </sceneEight>
+
+    <sceneNine>
+        <Mario>Hurry!</Mario>
+        <Mario>Spooky! <joke type="ytp">Where's the Princess?</joke></Mario>
+        <Luigi><joke type="ytp">Over there!</joke> Look! Wendy's Hotel.</Luigi>
+        <Mario>Be careful! When you pinch Wendy's pennies, <joke type="ytp">they pinch
+            back.</joke></Mario>
+    </sceneNine>
+
+    <sceneTen>
+        <Mario>That wasn't so hard. Was it?</Mario>
+        <Peach>Boys!</Peach>
+        <Bowser>(laughs)</Bowser>
+        <Luigi>That's that creepy Bowser's laugh.</Luigi>
+        <Mario>Look! This is it, Luigi. Remember, <joke type="ytp">where there's
+            smoke...</joke></Mario>
+        <Luigi>There's fire.</Luigi>
+    </sceneTen>
+
+    <sceneEleven>
+        <Peach>Thanks to you two I can safely rule the Mushroom Kingdom free from the terrible Koopa
+            clan.</Peach>
+        <Peach action="player">And my thanks to you</Peach>
+        <everyone action="player">You're the best player ever!</everyone>
+    </sceneEleven>
+</hotelMario>
