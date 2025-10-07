@@ -42,8 +42,8 @@ ing = element ing {id, quant?, unit?, mixed{alt*}}
 alt = element alt {quant, unit, text}
 quant = attribute quant {xsd:float}
 unit = attribute unit {"cup" | "T" | "t"  | "F" | "C" | "inch" | "pint"} #Forgot <unit= "pint">
-prep = element prep {heading, step*} #Step happens more than once, * over ?
-step = element step {n, mixed{ (combine | equip | equipUse | ingUse | temp)*}, text} #Forgot element "temp"
+prep = element prep {heading, step+} #Step happens more than once, + over ?, step HAS to happen at least once
+step = element step {n, mixed{ (combine | equip | equipUse | ingUse | temp)*}, text} #Forgot element "temp" and parentheses around mixed elements
 equip = element equip {id, mixed{(equip | equipUse | setting | time | ingUse | size | temp)*}} #Forgot elements "size" and "temp"
 setting = element setting {text}
 temp = element temp {quant, unit, text}
