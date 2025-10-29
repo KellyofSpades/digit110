@@ -20,3 +20,13 @@ figure
 {
     width: 50%;
 }
+li
+{
+    font-family: "Trebuchet MS", monospace;
+    font-size: 20px;
+}
+a
+{
+    font-family: "Trebuchet MS", monospace;
+    font-size: 20px;
+}

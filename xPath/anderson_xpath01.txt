@@ -1,0 +1,4 @@
+I have no clue how any of this is even suposed to work, I keep getting errors when typing out what is supposed to be the XPath finders
+I've tried using /TEI/teiHeader/text/font/body/div[last()] or //div[@type="panelGrip"]/p[2], even trying other things to switch around the code to get it to work don't seem to do anything.
+Even other XPaths don't seem to be working either. The XPath I tried using for my project also had this similar issue, I tried using /undertale/metadata/refList[last()] just as a test and it still didn't work.
+I think it's missing something but I can't think of what it's missing.
