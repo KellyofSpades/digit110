@@ -1,0 +1,7 @@
+/TEI/text/body/div/count(div)
+//list=>count() -> 3
+//list[last()] -> sortKey="plants" and sortKey="art"
+//list[position()] -> sortKey="animals", sortKey-"plants", and sortKey-"art"
+//person/occupation[1] and (//person/occupation)[1] -> Are the parentheses finding th one spefific one that actually fits the cidentials rather than being a possibility? The only diiference i could notice was the instant="false" had quotes around it and one result rather than like a hundred
+//person=>count() -> 1552, with @sex attribute count(//@sex) ->1393
+I'm still very confused on all of this, but this looks a little better than the first one
