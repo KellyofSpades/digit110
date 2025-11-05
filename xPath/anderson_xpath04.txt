@@ -1,0 +1,13 @@
+1. //cbml:panel/distinct-values(@characters)
+Duplicates are still there, mainly with "narrator", "green_man #anon_man_3", "green_man #anon_man_4", or any of the main character's names combined with others.
+
+2. //cbml:panel/tokenize(@characters)
+Tokenize breaks up the combined characters on "distinct-values"
+
+3. //cbml:panel/contains(characters, narrator)
+FInds all thta contain the character attribute and "narrator", 56 were true
+
+4. //cbml:balloon/string-length(@type)
+Was about 6-7 for the types
+
+5.//cbml:panel/note

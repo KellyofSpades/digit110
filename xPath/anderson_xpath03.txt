@@ -1,0 +1,14 @@
+1. //div/count(*) and //div/*/count(*)
+The first one is counting the div elements that appear before the next one, and the second one is counting all of the elements in the div before going to the next
+
+2. min() and max()
+//div/@type[not(following-sibling)][1] seemed that 9 was the max() and //div/@type[not(preceeding-sibling)][1] seemed that 1 was the min()
+
+3. <div> and max()
+I'm not even sure if //div/@type[not(following-sibling)][1] works, but it has the [], and seemed to work
+
+4. //occupation/distinct-values(@type)
+Allows for each occupation element to display the type attibute attached
+
+5. //occupation/distinct-values(@type)["artist"]
+Finds specific attribute marks of "artist"
