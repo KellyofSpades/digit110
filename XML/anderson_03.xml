@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recipe>
+    <intro>How to make &quot;Brot Knoedel&quot;, a German bread dumpling. This recipe comes from my
+            <family relation="motherside">grandma</family> who was born on the <location
+            type="state">Bavarian</location> side of <location type="country">Germany</location>.
+        Knoedel can be dozens of flavors, but this one is only bread. This recipe was passed down
+        generations in the 19th and 20th centuries, so measurements are a little strange.</intro>
+
+    <materials>Materials you will need...</materials>
+    <matOne>-A large sized bowl</matOne>
+    <matTwo>-A medium sized spoon, roughly a tablespoon
+        <!--It's not actually the tablespoon you typically use, it's an actual spoon--></matTwo>
+    <matThree>-A coffee mug
+        <!--It's also not an actual "cup of milk" but a "mug of milk"--></matThree>
+    <matFour>-A pot <tip>(boil water on stove)</tip></matFour>
+
+    <ingredients>Ingredients you will need...</ingredients>
+    <ingOne>-Loaf of bread</ingOne>
+    <ingTwo>-A &quot;cup&quot; of milk <!--It makes more sense down here--></ingTwo>
+    <ingThree>-2 Eggs <!--Whites and yolk included--></ingThree>
+    <ingFour>-4 &quot;tablespoons&quot; of flour</ingFour>
+
+    <instructOne>Start by taking a piece of <ing>bread</ing> and pull the piece apart into little
+        bits. Fill a <mat size="large">bowl</mat> with the entire <ing amount="all"
+        >loaf</ing>.</instructOne>
+    <instructTwo>Fill the <mat>coffee mug</mat> with <ing kind="2%">milk</ing> and put in the
+        microwave for <time>1 minute and 30 seconds</time></instructTwo>
+    <instructThree>Crack two <ing>eggs</ing> into the <mat size="large">bowl</mat> and add 4 scoops
+        of <ing>flour</ing> with the <mat size="tablespoon">spoon</mat> into the
+        mixture.</instructThree>
+    <instructFour>To mix the ingredients together, kneed the <ing result="sticky">dough</ing> using
+        your hands until the mixture is clumped together and slightly sticky.
+        <!--This is the part where you realize you're just eating wet bread, and that wet bread somehow doesn't taste weird, but the texture is not for everyone--></instructFour>
+    <instructFive>Roll the mixture in the palm of your hands into the shape of a <product
+            size="roughEstimate">tennis ball</product>
+        <tip>(Using water to dampen your fingertips helps the dough stick to the dumpling, not your
+            hands)</tip>.</instructFive>
+
+    <cooking>Place the dumplings into boiling water for <time>20 minutes</time>.</cooking>
+    <cookingNext>After <time>20 minutes</time>, place the dumplings onto a plate and let them cool
+        for about <time>5-8 minutes</time>.</cookingNext>
+
+    <sauce>If you would like something to dip the dumplings into, gravy is one of the best options
+        for a <flavor>savory</flavor> flavor.
+        <!--Here's the "I'm not just eating wet bread" savior--></sauce>
+</recipe>
